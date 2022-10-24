@@ -21,7 +21,7 @@ You can achieve the same thing with docker-compose, in this case the container i
     version: "3.5"
     services:
         cifs-client:
-            image: shukriadams/cifs-client:latest
+            image: shukriadams/cifs-client:0.0.1
             container_name: cifs-client
             privileged : true
             volumes:
